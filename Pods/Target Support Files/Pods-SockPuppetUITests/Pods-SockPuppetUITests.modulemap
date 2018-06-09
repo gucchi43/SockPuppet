@@ -1,0 +1,6 @@
+framework module Pods_SockPuppetUITests {
+  umbrella header "Pods-SockPuppetUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

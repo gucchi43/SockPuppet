@@ -1,0 +1,6 @@
+framework module Pods_SockPuppetTests {
+  umbrella header "Pods-SockPuppetTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
