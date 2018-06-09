@@ -1,6 +1,0 @@
-framework module Pods_SockPuppet {
-  umbrella header "Pods-SockPuppet-umbrella.h"
-
-  export *
-  module * { export * }
-}
