@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0343FA7320CA0B58005EC978 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343FA7220CA0B58005EC978 /* AppDelegate.swift */; };
+		0343FA7520CA0B58005EC978 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343FA7420CA0B58005EC978 /* ViewController.swift */; };
+		0343FA7820CA0B58005EC978 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0343FA7620CA0B58005EC978 /* Main.storyboard */; };
+		0343FA7A20CA0B5D005EC978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0343FA7920CA0B5D005EC978 /* Assets.xcassets */; };
+		0343FA7D20CA0B5D005EC978 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0343FA7B20CA0B5D005EC978 /* LaunchScreen.storyboard */; };
+		0343FA8820CA0B5D005EC978 /* SockPuppetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343FA8720CA0B5D005EC978 /* SockPuppetTests.swift */; };
+		0343FA9320CA0B5D005EC978 /* SockPuppetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343FA9220CA0B5D005EC978 /* SockPuppetUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0343FA8420CA0B5D005EC978 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0343FA6720CA0B57005EC978 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0343FA6E20CA0B58005EC978;
+			remoteInfo = SockPuppet;
+		};
+		0343FA8F20CA0B5D005EC978 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0343FA6720CA0B57005EC978 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0343FA6E20CA0B58005EC978;
+			remoteInfo = SockPuppet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0343FA6F20CA0B58005EC978 /* SockPuppet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SockPuppet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0343FA7220CA0B58005EC978 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0343FA7420CA0B58005EC978 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0343FA7720CA0B58005EC978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0343FA7920CA0B5D005EC978 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0343FA7C20CA0B5D005EC978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0343FA7E20CA0B5D005EC978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0343FA8320CA0B5D005EC978 /* SockPuppetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SockPuppetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0343FA8720CA0B5D005EC978 /* SockPuppetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SockPuppetTests.swift; sourceTree = "<group>"; };
+		0343FA8920CA0B5D005EC978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0343FA8E20CA0B5D005EC978 /* SockPuppetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SockPuppetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0343FA9220CA0B5D005EC978 /* SockPuppetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SockPuppetUITests.swift; sourceTree = "<group>"; };
+		0343FA9420CA0B5D005EC978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0343FA6C20CA0B58005EC978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0343FA8020CA0B5D005EC978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0343FA8B20CA0B5D005EC978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0343FA6620CA0B57005EC978 = {
+			isa = PBXGroup;
+			children = (
+				0343FA7120CA0B58005EC978 /* SockPuppet */,
+				0343FA8620CA0B5D005EC978 /* SockPuppetTests */,
+				0343FA9120CA0B5D005EC978 /* SockPuppetUITests */,
+				0343FA7020CA0B58005EC978 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0343FA7020CA0B58005EC978 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0343FA6F20CA0B58005EC978 /* SockPuppet.app */,
+				0343FA8320CA0B5D005EC978 /* SockPuppetTests.xctest */,
+				0343FA8E20CA0B5D005EC978 /* SockPuppetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0343FA7120CA0B58005EC978 /* SockPuppet */ = {
+			isa = PBXGroup;
+			children = (
+				0343FA7220CA0B58005EC978 /* AppDelegate.swift */,
+				0343FA7420CA0B58005EC978 /* ViewController.swift */,
+				0343FA7620CA0B58005EC978 /* Main.storyboard */,
+				0343FA7920CA0B5D005EC978 /* Assets.xcassets */,
+				0343FA7B20CA0B5D005EC978 /* LaunchScreen.storyboard */,
+				0343FA7E20CA0B5D005EC978 /* Info.plist */,
+			);
+			path = SockPuppet;
+			sourceTree = "<group>";
+		};
+		0343FA8620CA0B5D005EC978 /* SockPuppetTests */ = {
+			isa = PBXGroup;
+			children = (
+				0343FA8720CA0B5D005EC978 /* SockPuppetTests.swift */,
+				0343FA8920CA0B5D005EC978 /* Info.plist */,
+			);
+			path = SockPuppetTests;
+			sourceTree = "<group>";
+		};
+		0343FA9120CA0B5D005EC978 /* SockPuppetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0343FA9220CA0B5D005EC978 /* SockPuppetUITests.swift */,
+				0343FA9420CA0B5D005EC978 /* Info.plist */,
+			);
+			path = SockPuppetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0343FA6E20CA0B58005EC978 /* SockPuppet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0343FA9720CA0B5D005EC978 /* Build configuration list for PBXNativeTarget "SockPuppet" */;
+			buildPhases = (
+				0343FA6B20CA0B58005EC978 /* Sources */,
+				0343FA6C20CA0B58005EC978 /* Frameworks */,
+				0343FA6D20CA0B58005EC978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SockPuppet;
+			productName = SockPuppet;
+			productReference = 0343FA6F20CA0B58005EC978 /* SockPuppet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0343FA8220CA0B5D005EC978 /* SockPuppetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0343FA9A20CA0B5D005EC978 /* Build configuration list for PBXNativeTarget "SockPuppetTests" */;
+			buildPhases = (
+				0343FA7F20CA0B5D005EC978 /* Sources */,
+				0343FA8020CA0B5D005EC978 /* Frameworks */,
+				0343FA8120CA0B5D005EC978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0343FA8520CA0B5D005EC978 /* PBXTargetDependency */,
+			);
+			name = SockPuppetTests;
+			productName = SockPuppetTests;
+			productReference = 0343FA8320CA0B5D005EC978 /* SockPuppetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0343FA8D20CA0B5D005EC978 /* SockPuppetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0343FA9D20CA0B5D005EC978 /* Build configuration list for PBXNativeTarget "SockPuppetUITests" */;
+			buildPhases = (
+				0343FA8A20CA0B5D005EC978 /* Sources */,
+				0343FA8B20CA0B5D005EC978 /* Frameworks */,
+				0343FA8C20CA0B5D005EC978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0343FA9020CA0B5D005EC978 /* PBXTargetDependency */,
+			);
+			name = SockPuppetUITests;
+			productName = SockPuppetUITests;
+			productReference = 0343FA8E20CA0B5D005EC978 /* SockPuppetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0343FA6720CA0B57005EC978 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Hiroki Taniguchi";
+				TargetAttributes = {
+					0343FA6E20CA0B58005EC978 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					0343FA8220CA0B5D005EC978 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 0343FA6E20CA0B58005EC978;
+					};
+					0343FA8D20CA0B5D005EC978 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 0343FA6E20CA0B58005EC978;
+					};
+				};
+			};
+			buildConfigurationList = 0343FA6A20CA0B57005EC978 /* Build configuration list for PBXProject "SockPuppet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0343FA6620CA0B57005EC978;
+			productRefGroup = 0343FA7020CA0B58005EC978 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0343FA6E20CA0B58005EC978 /* SockPuppet */,
+				0343FA8220CA0B5D005EC978 /* SockPuppetTests */,
+				0343FA8D20CA0B5D005EC978 /* SockPuppetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0343FA6D20CA0B58005EC978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0343FA7D20CA0B5D005EC978 /* LaunchScreen.storyboard in Resources */,
+				0343FA7A20CA0B5D005EC978 /* Assets.xcassets in Resources */,
+				0343FA7820CA0B58005EC978 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0343FA8120CA0B5D005EC978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0343FA8C20CA0B5D005EC978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0343FA6B20CA0B58005EC978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0343FA7520CA0B58005EC978 /* ViewController.swift in Sources */,
+				0343FA7320CA0B58005EC978 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0343FA7F20CA0B5D005EC978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0343FA8820CA0B5D005EC978 /* SockPuppetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0343FA8A20CA0B5D005EC978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0343FA9320CA0B5D005EC978 /* SockPuppetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0343FA8520CA0B5D005EC978 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0343FA6E20CA0B58005EC978 /* SockPuppet */;
+			targetProxy = 0343FA8420CA0B5D005EC978 /* PBXContainerItemProxy */;
+		};
+		0343FA9020CA0B5D005EC978 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0343FA6E20CA0B58005EC978 /* SockPuppet */;
+			targetProxy = 0343FA8F20CA0B5D005EC978 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0343FA7620CA0B58005EC978 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0343FA7720CA0B58005EC978 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0343FA7B20CA0B5D005EC978 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0343FA7C20CA0B5D005EC978 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0343FA9520CA0B5D005EC978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0343FA9620CA0B5D005EC978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0343FA9820CA0B5D005EC978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48KBV2T232;
+				INFOPLIST_FILE = SockPuppet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bocchi.SockPuppet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0343FA9920CA0B5D005EC978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48KBV2T232;
+				INFOPLIST_FILE = SockPuppet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bocchi.SockPuppet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0343FA9B20CA0B5D005EC978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48KBV2T232;
+				INFOPLIST_FILE = SockPuppetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bocchi.SockPuppetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SockPuppet.app/SockPuppet";
+			};
+			name = Debug;
+		};
+		0343FA9C20CA0B5D005EC978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48KBV2T232;
+				INFOPLIST_FILE = SockPuppetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bocchi.SockPuppetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SockPuppet.app/SockPuppet";
+			};
+			name = Release;
+		};
+		0343FA9E20CA0B5D005EC978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48KBV2T232;
+				INFOPLIST_FILE = SockPuppetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bocchi.SockPuppetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SockPuppet;
+			};
+			name = Debug;
+		};
+		0343FA9F20CA0B5D005EC978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48KBV2T232;
+				INFOPLIST_FILE = SockPuppetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bocchi.SockPuppetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SockPuppet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0343FA6A20CA0B57005EC978 /* Build configuration list for PBXProject "SockPuppet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0343FA9520CA0B5D005EC978 /* Debug */,
+				0343FA9620CA0B5D005EC978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0343FA9720CA0B5D005EC978 /* Build configuration list for PBXNativeTarget "SockPuppet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0343FA9820CA0B5D005EC978 /* Debug */,
+				0343FA9920CA0B5D005EC978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0343FA9A20CA0B5D005EC978 /* Build configuration list for PBXNativeTarget "SockPuppetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0343FA9B20CA0B5D005EC978 /* Debug */,
+				0343FA9C20CA0B5D005EC978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0343FA9D20CA0B5D005EC978 /* Build configuration list for PBXNativeTarget "SockPuppetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0343FA9E20CA0B5D005EC978 /* Debug */,
+				0343FA9F20CA0B5D005EC978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0343FA6720CA0B57005EC978 /* Project object */;
+}

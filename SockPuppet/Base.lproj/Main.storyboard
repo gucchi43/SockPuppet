@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SockPuppet" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="twitter_sukusho" translatesAutoresizingMaskIntoConstraints="NO" id="pgR-fj-64t">
+                                <rect key="frame" x="38" y="120" width="300" height="160"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="pgR-fj-64t" secondAttribute="height" multiplier="15:8" id="5Pg-x7-kPF"/>
+                                    <constraint firstAttribute="height" constant="160" id="Blh-Y1-KBg"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="この中に質問が入ります。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kb8-Tr-Gs5">
+                                <rect key="frame" x="78" y="160" width="220" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="SiS-f5-hvK"/>
+                                    <constraint firstAttribute="width" constant="220" id="wqg-Bp-bvx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="今日のインタビュー" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IeJ-cA-w7y">
+                                <rect key="frame" x="109.5" y="52" width="156" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="49T-EH-Sqd">
+                                <rect key="frame" x="110" y="577" width="155" height="30"/>
+                                <state key="normal" title="質問にTwitterで答える"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="kb8-Tr-Gs5" firstAttribute="centerY" secondItem="pgR-fj-64t" secondAttribute="centerY" id="80d-mQ-Kmw"/>
+                            <constraint firstItem="kb8-Tr-Gs5" firstAttribute="centerX" secondItem="pgR-fj-64t" secondAttribute="centerX" id="WB9-JG-Icc"/>
+                            <constraint firstItem="pgR-fj-64t" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="a5Q-HF-XL9"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="49T-EH-Sqd" secondAttribute="bottom" constant="60" id="dbf-9U-9pA"/>
+                            <constraint firstItem="IeJ-cA-w7y" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="32" id="duR-f7-nVr"/>
+                            <constraint firstItem="pgR-fj-64t" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rGD-vd-81x"/>
+                            <constraint firstItem="49T-EH-Sqd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uWR-TU-lJ2"/>
+                            <constraint firstItem="IeJ-cA-w7y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vGz-tI-onD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="askLabel" destination="kb8-Tr-Gs5" id="Oil-DO-zeW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="132.68365817091455"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="twitter_sukusho" width="400" height="225"/>
+    </resources>
+</document>
